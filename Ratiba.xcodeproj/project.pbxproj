@@ -21,6 +21,10 @@
 		62F5DDE52967E8E40039D0BA /* EditStudentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F5DDE42967E8E40039D0BA /* EditStudentView.swift */; };
 		62F5DDE72967E8F30039D0BA /* EditClassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F5DDE62967E8F30039D0BA /* EditClassView.swift */; };
 		62F5DDE92967E9270039D0BA /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F5DDE82967E9270039D0BA /* Persistence.swift */; };
+		62F5DDEC2967E9CB0039D0BA /* Ratiba.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 62F5DDEA2967E9CB0039D0BA /* Ratiba.xcdatamodeld */; };
+		62F5DDEF2967EF7F0039D0BA /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F5DDEE2967EF7F0039D0BA /* DateExtension.swift */; };
+		62F5DDF1296825A20039D0BA /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F5DDF0296825A20039D0BA /* Day.swift */; };
+		62F5DDF3296826B30039D0BA /* Week.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F5DDF2296826B30039D0BA /* Week.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +43,10 @@
 		62F5DDE42967E8E40039D0BA /* EditStudentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditStudentView.swift; sourceTree = "<group>"; };
 		62F5DDE62967E8F30039D0BA /* EditClassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditClassView.swift; sourceTree = "<group>"; };
 		62F5DDE82967E9270039D0BA /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		62F5DDEB2967E9CB0039D0BA /* Ratiba.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Ratiba.xcdatamodel; sourceTree = "<group>"; };
+		62F5DDEE2967EF7F0039D0BA /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		62F5DDF0296825A20039D0BA /* Day.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
+		62F5DDF2296826B30039D0BA /* Week.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +79,7 @@
 		62F5DDC22967B7480039D0BA /* Ratiba */ = {
 			isa = PBXGroup;
 			children = (
+				62F5DDED2967EF4F0039D0BA /* Extensions */,
 				62F5DDD52967B7AE0039D0BA /* Utility */,
 				62F5DDD42967B7A70039D0BA /* View */,
 				62F5DDD32967B78D0039D0BA /* Data */,
@@ -95,6 +104,8 @@
 		62F5DDD12967B77B0039D0BA /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				62F5DDF0296825A20039D0BA /* Day.swift */,
+				62F5DDF2296826B30039D0BA /* Week.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -119,6 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				62F5DDE82967E9270039D0BA /* Persistence.swift */,
+				62F5DDEA2967E9CB0039D0BA /* Ratiba.xcdatamodeld */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -135,6 +147,14 @@
 			children = (
 			);
 			path = Utility;
+			sourceTree = "<group>";
+		};
+		62F5DDED2967EF4F0039D0BA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				62F5DDEE2967EF7F0039D0BA /* DateExtension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,12 +228,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				62F5DDD72967E8650039D0BA /* ClassListView.swift in Sources */,
+				62F5DDF3296826B30039D0BA /* Week.swift in Sources */,
+				62F5DDEF2967EF7F0039D0BA /* DateExtension.swift in Sources */,
 				62F5DDC62967B7480039D0BA /* ContentView.swift in Sources */,
 				62F5DDE32967E8CE0039D0BA /* AddStudentToClassView.swift in Sources */,
 				62F5DDE12967E8BA0039D0BA /* AddStudentView.swift in Sources */,
 				62F5DDDF2967E8A90039D0BA /* AddClassView.swift in Sources */,
 				62F5DDD92967E8730039D0BA /* StudentListView.swift in Sources */,
 				62F5DDE52967E8E40039D0BA /* EditStudentView.swift in Sources */,
+				62F5DDF1296825A20039D0BA /* Day.swift in Sources */,
+				62F5DDEC2967E9CB0039D0BA /* Ratiba.xcdatamodeld in Sources */,
 				62F5DDE72967E8F30039D0BA /* EditClassView.swift in Sources */,
 				62F5DDC42967B7480039D0BA /* RatibaApp.swift in Sources */,
 				62F5DDE92967E9270039D0BA /* Persistence.swift in Sources */,
@@ -419,6 +443,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		62F5DDEA2967E9CB0039D0BA /* Ratiba.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				62F5DDEB2967E9CB0039D0BA /* Ratiba.xcdatamodel */,
+			);
+			currentVersion = 62F5DDEB2967E9CB0039D0BA /* Ratiba.xcdatamodel */;
+			path = Ratiba.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 62F5DDB82967B7480039D0BA /* Project object */;
 }
