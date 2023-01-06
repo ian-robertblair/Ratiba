@@ -11,6 +11,16 @@
 		62F5DDC62967B7480039D0BA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F5DDC52967B7480039D0BA /* ContentView.swift */; };
 		62F5DDC82967B7490039D0BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62F5DDC72967B7490039D0BA /* Assets.xcassets */; };
 		62F5DDCB2967B7490039D0BA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62F5DDCA2967B7490039D0BA /* Preview Assets.xcassets */; };
+		62F5DDD72967E8650039D0BA /* ClassListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F5DDD62967E8650039D0BA /* ClassListView.swift */; };
+		62F5DDD92967E8730039D0BA /* StudentListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F5DDD82967E8730039D0BA /* StudentListView.swift */; };
+		62F5DDDB2967E8810039D0BA /* ClassDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F5DDDA2967E8810039D0BA /* ClassDetailView.swift */; };
+		62F5DDDD2967E8990039D0BA /* StudentDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F5DDDC2967E8990039D0BA /* StudentDetailView.swift */; };
+		62F5DDDF2967E8A90039D0BA /* AddClassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F5DDDE2967E8A90039D0BA /* AddClassView.swift */; };
+		62F5DDE12967E8BA0039D0BA /* AddStudentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F5DDE02967E8BA0039D0BA /* AddStudentView.swift */; };
+		62F5DDE32967E8CE0039D0BA /* AddStudentToClassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F5DDE22967E8CE0039D0BA /* AddStudentToClassView.swift */; };
+		62F5DDE52967E8E40039D0BA /* EditStudentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F5DDE42967E8E40039D0BA /* EditStudentView.swift */; };
+		62F5DDE72967E8F30039D0BA /* EditClassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F5DDE62967E8F30039D0BA /* EditClassView.swift */; };
+		62F5DDE92967E9270039D0BA /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F5DDE82967E9270039D0BA /* Persistence.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +29,16 @@
 		62F5DDC52967B7480039D0BA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		62F5DDC72967B7490039D0BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		62F5DDCA2967B7490039D0BA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		62F5DDD62967E8650039D0BA /* ClassListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassListView.swift; sourceTree = "<group>"; };
+		62F5DDD82967E8730039D0BA /* StudentListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentListView.swift; sourceTree = "<group>"; };
+		62F5DDDA2967E8810039D0BA /* ClassDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassDetailView.swift; sourceTree = "<group>"; };
+		62F5DDDC2967E8990039D0BA /* StudentDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentDetailView.swift; sourceTree = "<group>"; };
+		62F5DDDE2967E8A90039D0BA /* AddClassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddClassView.swift; sourceTree = "<group>"; };
+		62F5DDE02967E8BA0039D0BA /* AddStudentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStudentView.swift; sourceTree = "<group>"; };
+		62F5DDE22967E8CE0039D0BA /* AddStudentToClassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStudentToClassView.swift; sourceTree = "<group>"; };
+		62F5DDE42967E8E40039D0BA /* EditStudentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditStudentView.swift; sourceTree = "<group>"; };
+		62F5DDE62967E8F30039D0BA /* EditClassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditClassView.swift; sourceTree = "<group>"; };
+		62F5DDE82967E9270039D0BA /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +102,15 @@
 		62F5DDD22967B7830039D0BA /* App */ = {
 			isa = PBXGroup;
 			children = (
+				62F5DDD62967E8650039D0BA /* ClassListView.swift */,
+				62F5DDD82967E8730039D0BA /* StudentListView.swift */,
+				62F5DDDA2967E8810039D0BA /* ClassDetailView.swift */,
+				62F5DDDC2967E8990039D0BA /* StudentDetailView.swift */,
+				62F5DDDE2967E8A90039D0BA /* AddClassView.swift */,
+				62F5DDE02967E8BA0039D0BA /* AddStudentView.swift */,
+				62F5DDE22967E8CE0039D0BA /* AddStudentToClassView.swift */,
+				62F5DDE42967E8E40039D0BA /* EditStudentView.swift */,
+				62F5DDE62967E8F30039D0BA /* EditClassView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -89,6 +118,7 @@
 		62F5DDD32967B78D0039D0BA /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				62F5DDE82967E9270039D0BA /* Persistence.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -177,8 +207,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62F5DDD72967E8650039D0BA /* ClassListView.swift in Sources */,
 				62F5DDC62967B7480039D0BA /* ContentView.swift in Sources */,
+				62F5DDE32967E8CE0039D0BA /* AddStudentToClassView.swift in Sources */,
+				62F5DDE12967E8BA0039D0BA /* AddStudentView.swift in Sources */,
+				62F5DDDF2967E8A90039D0BA /* AddClassView.swift in Sources */,
+				62F5DDD92967E8730039D0BA /* StudentListView.swift in Sources */,
+				62F5DDE52967E8E40039D0BA /* EditStudentView.swift in Sources */,
+				62F5DDE72967E8F30039D0BA /* EditClassView.swift in Sources */,
 				62F5DDC42967B7480039D0BA /* RatibaApp.swift in Sources */,
+				62F5DDE92967E9270039D0BA /* Persistence.swift in Sources */,
+				62F5DDDB2967E8810039D0BA /* ClassDetailView.swift in Sources */,
+				62F5DDDD2967E8990039D0BA /* StudentDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
